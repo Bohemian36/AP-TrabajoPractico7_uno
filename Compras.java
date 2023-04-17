@@ -19,7 +19,7 @@ import java.nio.file.Paths;
                    item[2] = new ItemCarrito(z,tres,1);		
 		       mostrarCompra(item,z,c1);
    }	
-        public static void mostrarCompra(ItemCarrito cargaItem[], Carrito z, Pers c1) {
+       public static void mostrarCompra(ItemCarrito cargaItem[], Carrito z, Pers c1) {
 	           
 	       System.out.println("Ticket: "+z.Num());
 	       System.out.println("Cliente/a: "+c1.Nombre());
@@ -33,6 +33,6 @@ import java.nio.file.Paths;
             dFijo.asignaMonto(800);
             System.out.println("\nCompra final con cupo de descuento: $"+dFijo.montoFinal(z.MontoTotal()));
             System.out.println("  ");
-	           System.out.println("Gracias vuelva pronto");
+	    System.out.println("Gracias vuelva pronto");
    }
  }
