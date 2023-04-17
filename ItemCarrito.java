@@ -8,10 +8,10 @@ package pack1;
         private double subTotal;
 	
     	public ItemCarrito(Carrito num, Producto p, int cantidad) {
-		      ticket = num;
+            ticket = num;
     	    prod = p;
-	    	  this.cantidad=cantidad;
-    	   	subTotal = prod.un_precio() * cantidad;	
+	    this.cantidad=cantidad;
+    	    subTotal = prod.un_precio() * cantidad;	
         }
     	public double SubTotal() {
     	    return subTotal;
